@@ -27,5 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'pry-remote'
   spec.add_development_dependency 'pry-nav'
-  spec.add_runtime_dependency 'quandl_config'
+  spec.add_runtime_dependency 'quandl_config', '~> 0.0.2'
+  spec.add_runtime_dependency 'slack-notifier', '>= 1.0'
 end

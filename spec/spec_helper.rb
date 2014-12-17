@@ -1,2 +1,6 @@
+require 'bundler/setup'
+Bundler.require(:default, :development)
+
 require 'pry'
-require 'quandl/slack'
+
+require 'fixtures/dummy_app'
