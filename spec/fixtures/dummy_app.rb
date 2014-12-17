@@ -10,5 +10,4 @@ Rails = Class.new do
 end
 
 # Mocking a gemfile
-require 'slack-notifier'
 require 'quandl/slack'

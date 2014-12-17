@@ -21,9 +21,6 @@ staging:
 test:
   <<: *defaults
 
-jenkins:
-  <<: *defaults
-
 vagrant:
   <<: *defaults
 
