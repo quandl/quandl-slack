@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'quandl/slack/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'quandl_slack'
+  spec.name          = 'quandl-slack'
   spec.version       = Quandl::Slack::VERSION
   spec.authors       = ['Najwa Azer']
   spec.email         = ['najwa.azer@gmail.com']
@@ -27,6 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'pry-remote'
   spec.add_development_dependency 'pry-nav'
-  spec.add_runtime_dependency 'quandl_config', '~> 0.0.2'
+  spec.add_runtime_dependency 'quandl-config'
   spec.add_runtime_dependency 'slack-notifier', '>= 1.0'
 end
