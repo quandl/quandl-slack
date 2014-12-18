@@ -1,6 +1,6 @@
 defaults: &defaults
   webhook_url: https://hooks.slack.com/services/fake/fake/fake
-  notifiers: &default_subclasses
+  notifiers: &default_notifiers
     asset_management:
       channel: '#releases'
       username: Next Asset Deployer
@@ -33,7 +33,7 @@ vagrant_staging:
 production:
   <<: *defaults
   subclasses:
-    <<: *default_subclasses
+    <<: *default_notifiers
     stripe:
       channel: '#stripe-events'
       username: stripe
