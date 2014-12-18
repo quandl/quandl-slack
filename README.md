@@ -114,6 +114,8 @@ Simply call:
 Quandl::Slack::YourNotifier.ping('your message', additional_customizations_hash)
 ```
 
+See [`slack-notifier`'s readme](https://github.com/stevenosloan/slack-notifier) and [Slack's API documentation](https://api.slack.com/methods/chat.postMessage) for information about the additional customizations you can pass in.
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/quandl_slack/fork )
